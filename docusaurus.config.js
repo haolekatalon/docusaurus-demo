@@ -126,12 +126,12 @@ const config = {
       //       advancedSyntax: true,
       //   },
 
-        // Optional: path for search page that enabled by default (`false` to disable it)
-        searchPagePath: 'search',
+      //   // Optional: path for search page that enabled by default (`false` to disable it)
+      //   searchPagePath: 'search',
   
-        //... other Algolia params
-        selector: 'div#',
-      },
+      //   //... other Algolia params
+      //   selector: 'div#',
+      // },
       footer: {
         style: 'light',
         links: [
