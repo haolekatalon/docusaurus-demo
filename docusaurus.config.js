@@ -107,24 +107,24 @@ const config = {
           },
         ],
       },
-      algolia: {
-        // appId: process.env.APPLICATION_ID,
-        // indexName: process.env.INDEX_NAME,
-        // apiKey: process.env.API_KEY_SEARCH,
-        appId: "5E7YZB1TD0",
-        indexName: "docs_dita",
-        apiKey: "719e4773c20547dc1c567a1ffc409f29",
+      // algolia: {
+      //   // appId: process.env.APPLICATION_ID,
+      //   // indexName: process.env.INDEX_NAME,
+      //   // apiKey: process.env.API_KEY_SEARCH,
+      //   appId: "5E7YZB1TD0",
+      //   indexName: "docs_dita",
+      //   apiKey: "719e4773c20547dc1c567a1ffc409f29",
   
-        // Optional: see doc section bellow
-        contextualSearch: true,
+      //   // Optional: see doc section bellow
+      //   contextualSearch: true,
 
-        // Optional: Algolia search parameters
-        searchParameters: {
-            hitsPerPage: 20,
-            clickAnalytics: true,
-            analytics: true,
-            advancedSyntax: true,
-        },
+      //   // Optional: Algolia search parameters
+      //   searchParameters: {
+      //       hitsPerPage: 20,
+      //       clickAnalytics: true,
+      //       analytics: true,
+      //       advancedSyntax: true,
+      //   },
 
         // Optional: path for search page that enabled by default (`false` to disable it)
         searchPagePath: 'search',
@@ -8135,16 +8135,16 @@ const config = {
     },
   // highlight-end
   ],
-  ['plugin-auto-redirect', {
-        s3Config: {
-        accessKeyId: "AKIAVBNEDDIHZWSR2YOU",
-        secretAccessKey: "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",
-        bucket: "katalon-docs",
-        key: "katalondocs",
-        region: "us-east-1"
-        }
-    }
-    ],
+  // ['plugin-auto-redirect', {
+  //       s3Config: {
+  //       accessKeyId: "AKIAVBNEDDIHZWSR2YOU",
+  //       secretAccessKey: "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",
+  //       bucket: "katalon-docs",
+  //       key: "katalondocs",
+  //       region: "us-east-1"
+  //       }
+  //   }
+  //   ],
 ],
 };
 
